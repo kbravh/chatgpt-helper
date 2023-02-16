@@ -41,7 +41,6 @@ function addFileUploadButton() {
   // Create an input element for selecting files and add it to the file upload button
   const input = document.createElement("input");
   input.type = "file";
-  input.accept = "text/*";
   input.multiple = true;
   input.style.display = "none";
   input.addEventListener("change", async () => {
